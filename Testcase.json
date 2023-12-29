@@ -1,0 +1,942 @@
+{
+  "Chapters": {
+    "4": "Physical",
+    "5": "Protocol",
+    "6": "Power",
+    "7": "Extended Power",
+    "8": "FRS",
+    "9": "USB4"
+  },
+  "MOI": {
+    "1": "Power Delivery 3.1 Tests ",
+    "2": "USB-C Functional Tests-v0.82",
+    "3": "Source Power Tests-v0.74 ",
+    "4": "Quick Charger 3.0 Tests-v1.4",
+    "5": "Quick Charge 4 Tests-v1.0 ",
+    "6": "Thunderbolt Power Tests-Rev1.5 Ver0.9",
+    "7": "DisplayPort Alternate Mode Tests-v4 ",
+    "8": "Custom OEM Tests-v1.0",
+    "9": "QC3+ Tests-v1.2",
+    "10": "IEC Functional Safety Tests"
+  },
+  "MOIChapter": {
+    "1": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": [],
+    "8": []
+  },
+  "TC_4.1": {
+    "TestID": "4.1",
+    "TestName": "TEST.PD.PHY.ALL.1 Transmit Bit Rate and the Drift",
+    "ChapterID": "4",
+    "ChapterName": "Physical",
+    "AppMOI": [
+      1
+    ]
+  },
+  "TC_4.2": {
+    "TestID": "4.2",
+    "TestName": "TEST.PD.PHY.ALL.2 Transmitter Eye Diagram",
+    "ChapterID": "4",
+    "ChapterName": "Physical"
+  },
+  "TC_4.3": {
+    "TestID": "4.3",
+    "TestName": "TEST.PD.PHY.ALL.3 Collision Avoidance",
+    "ChapterID": "4",
+    "ChapterName": "Physical"
+  },
+  "TC_4.4": {
+    "TestID": "4.4",
+    "TestName": "TEST.PD.PHY.ALL.4 Bus Idle Detection",
+    "ChapterID": "4",
+    "ChapterName": "Physical"
+  },
+  "TC_4.5": {
+    "TestID": "4.5",
+    "TestName": "TEST.PD.PHY.ALL.5 Receiver Interference Rejection",
+    "ChapterID": "4",
+    "ChapterName": "Physical"
+  },
+  "TC_4.6": {
+    "TestID": "4.6",
+    "TestName": "TEST.PD.PHY.ALL.6 Invalid SOP*",
+    "ChapterID": "4",
+    "ChapterName": "Physical"
+  },
+  "TC_4.7": {
+    "TestID": "4.7",
+    "TestName": "TEST.PD.PHY.ALL.7 Valid SOP*",
+    "ChapterID": "4",
+    "ChapterName": "Physical"
+  },
+  "TC_4.8": {
+    "TestID": "4.8",
+    "TestName": "TEST.PD.PHY.ALL.8 Incorrect CRC",
+    "ChapterID": "4",
+    "ChapterName": "Physical"
+  },
+  "TC_4.9": {
+    "TestID": "4.9",
+    "TestName": "TEST.PD.PHY.ALL.9 Receiver Input Impedance",
+    "ChapterID": "4",
+    "ChapterName": "Physical"
+  },
+  "TC_4.10": {
+    "TestID": "4.10",
+    "TestName": "TEST.PD.PHY.PORT.1 Invalid Reset Signals",
+    "ChapterID": "4",
+    "ChapterName": "Physical"
+  },
+  "TC_5.1": {
+    "TestID": "5.1",
+    "TestName": "TEST.PD.PROT.ALL.1 Corrupted GoodCRC",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.2": {
+    "TestID": "5.2",
+    "TestName": "TEST.PD.PROT.ALL.2 Soft Reset and Hard Reset",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.3": {
+    "TestID": "5.3",
+    "TestName": "TEST.PD.PROT.ALL.3 Soft Reset response",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.4": {
+    "TestID": "5.4",
+    "TestName": "TEST.PD.PROT.ALL.4 Reset Signals and MessageID",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.5": {
+    "TestID": "5.5",
+    "TestName": "TEST.PD.PROT.ALL.5 Unrecognized Message",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.6": {
+    "TestID": "5.6",
+    "TestName": "TEST.PD.PROT.ALL3.1 Get_Status Response",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.7": {
+    "TestID": "5.7",
+    "TestName": "TEST.PD.PROT.ALL3.2 Get_Manufacturer_Info Response",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.8": {
+    "TestID": "5.8",
+    "TestName": "TEST.PD.PROT.ALL3.3 Invalid Manufacturer Info Target",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.9": {
+    "TestID": "5.9",
+    "TestName": "TEST.PD.PROT.ALL3.4 Invalid Manufacturer Info Ref",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.10": {
+    "TestID": "5.10",
+    "TestName": "TEST.PD.PROT.ALL3.5 Chunked Extended Message Response",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.11": {
+    "TestID": "5.11",
+    "TestName": "TEST.PD.PROT.ALL3.6 ChunkSenderResponseTimer Timeout",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.12": {
+    "TestID": "5.12",
+    "TestName": "TEST.PD.PROT.ALL3.7 Security Messages Supported",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.13": {
+    "TestID": "5.13",
+    "TestName": "TEST.PD.PROT.ALL3.8 Get Revision Response",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.14": {
+    "TestID": "5.14",
+    "TestName": "TEST.PD.PROT.PORT3.1 Get Battery Status Response",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.15": {
+    "TestID": "5.15",
+    "TestName": "TEST.PD.PROT.PORT3.2 Invalid Battery Status",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.16": {
+    "TestID": "5.16",
+    "TestName": "TEST.PD.PROT.PORT3.3 Get Battery Cap Response",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.17": {
+    "TestID": "5.17",
+    "TestName": "TEST.PD.PROT.PORT3.4 Invalid Battery Capabilities Reference",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.18": {
+    "TestID": "5.18",
+    "TestName": "TEST.PD.PROT.PORT3.5 Get Country Codes Response",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.19": {
+    "TestID": "5.19",
+    "TestName": "TEST.PD.PROT.PORT3.6 Get Country Info Response",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.20": {
+    "TestID": "5.20",
+    "TestName": "TEST.PD.PROT.PORT3.7 Unchunked Extended Message Supported",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.21": {
+    "TestID": "5.21",
+    "TestName": "TEST.PD.PROT.SRC.1 Get_Source_Cap Response",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.22": {
+    "TestID": "5.22",
+    "TestName": "TEST.PD.PROT.SRC.2 Get_Source_Cap No Request",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.23": {
+    "TestID": "5.23",
+    "TestName": "TEST.PD.PROT.SRC.3 Sender Response Timer Deadline",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.24": {
+    "TestID": "5.24",
+    "TestName": "TEST.PD.PROT.SRC.4 Reject Request",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.25": {
+    "TestID": "5.25",
+    "TestName": "TEST.PD.PROT.SRC.5 Reject Request Invalid Object Position",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.26": {
+    "TestID": "5.26",
+    "TestName": "TEST.PD.PROT.SRC.6 Atomic Message Sequence",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.27": {
+    "TestID": "5.27",
+    "TestName": "TEST.PD.PROT.SRC.7 DR_Swap",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.28": {
+    "TestID": "5.28",
+    "TestName": "TEST.PD.PROT.SRC.8 VCONN_Swap Response",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.29": {
+    "TestID": "5.29",
+    "TestName": "TEST.PD.PROT.SRC.9 PR_Swap Response",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.30": {
+    "TestID": "5.30",
+    "TestName": "TEST.PD.PROT.SRC.10 PR_Swap",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.31": {
+    "TestID": "5.31",
+    "TestName": "TEST.PD.PROT.SRC.11 Unexpected Message Received in Ready State",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.32": {
+    "TestID": "5.32",
+    "TestName": "TEST.PD.PROT.SRC.12 Get_Sink_Cap Response",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.33": {
+    "TestID": "5.33",
+    "TestName": "TEST.PD.PROT.SRC.13 PR Swap GoodCRC not sent in Response to PS_RDY",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.34": {
+    "TestID": "5.34",
+    "TestName": "TEST.PD.PROT.SRC3.1 SourceCapabilityTimer Timeout",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.35": {
+    "TestID": "5.35",
+    "TestName": "TEST.PD.PROT.SRC3.2 SenderResponseTimer Timeout",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.36": {
+    "TestID": "5.36",
+    "TestName": "TEST.PD.PROT.SRC3.3 Get_Source_Cap_Extended Response",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.37": {
+    "TestID": "5.37",
+    "TestName": "TEST.PD.PROT.SRC3.4 Alert Response Source Input Change",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.38": {
+    "TestID": "5.38",
+    "TestName": "TEST.PD.PROT.SRC3.5 Alert Response Battery Status Change",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.39": {
+    "TestID": "5.39",
+    "TestName": "TEST.PD.PROT.SRC3.6 Soft_Reset Sent when SinkTxOK",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.40": {
+    "TestID": "5.40",
+    "TestName": "TEST.PD.PROT.SRC3.7 Get_PPS_Status Response",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.41": {
+    "TestID": "5.41",
+    "TestName": "TEST.PD.PROT.SRC3.8 SourcePPSCommTimer Deadline",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.42": {
+    "TestID": "5.42",
+    "TestName": "TEST.PD.PROT.SRC3.9 SourcePPSCommTimer Timeout",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.43": {
+    "TestID": "5.43",
+    "TestName": "TEST.PD.PROT.SRC3.10 SourcePPSCommTimer Stopped",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.44": {
+    "TestID": "5.44",
+    "TestName": "TEST.PD.PROT.SRC3.11 GoodCRC Specification Revision Compatibility",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.45": {
+    "TestID": "5.45",
+    "TestName": "TEST.PD.PROT.SRC3.12 FR Swap Without Signaling",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.46": {
+    "TestID": "5.46",
+    "TestName": "TEST.PD.PROT.SRC3.13 Cable Type Detection",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.47": {
+    "TestID": "5.47",
+    "TestName": "TEST.PD.PROT.SRC3.14 Source Info",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.48": {
+    "TestID": "5.48",
+    "TestName": "TEST.PD.PROT.SRC3.15",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.49": {
+    "TestID": "5.49",
+    "TestName": "TEST.PD.PROT.SNK.1 Get_Sink_Cap Response",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.50": {
+    "TestID": "5.50",
+    "TestName": "TEST.PD.PROT.SNK.2 Get_Source_Cap Response",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.51": {
+    "TestID": "5.51",
+    "TestName": "TEST.PD.PROT.SNK.3 SinkWaitCapTimer Deadline",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.52": {
+    "TestID": "5.52",
+    "TestName": "TEST.PD.PROT.SNK.4 SinkWaitCapTimer Timeout",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.53": {
+    "TestID": "5.53",
+    "TestName": "TEST.PD.PROT.SNK.5 SenderResponseTimer Deadline",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.54": {
+    "TestID": "5.54",
+    "TestName": "TEST.PD.PROT.SNK.6 SenderResponseTimer Timeout",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.55": {
+    "TestID": "5.55",
+    "TestName": "TEST.PD.PROT.SNK.7 PSTransitionTimer Timeout",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.56": {
+    "TestID": "5.56",
+    "TestName": "TEST.PD.PROT.SNK.8 Atomic Message Sequence",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.57": {
+    "TestID": "5.57",
+    "TestName": "TEST.PD.PROT.SNK.9 Atomic Message Sequence",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.58": {
+    "TestID": "5.58",
+    "TestName": "TEST.PD.PROT.SNK.10 DR_Swap Request",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.59": {
+    "TestID": "5.59",
+    "TestName": "TEST.PD.PROT.SNK.11 VCONN_Swap Request",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.60": {
+    "TestID": "5.60",
+    "TestName": "TEST.PD.PROT.SNK.12 PR_Swap",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.61": {
+    "TestID": "5.61",
+    "TestName": "TEST.PD.PROT.SNK.13 PR_Swap",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.62": {
+    "TestID": "5.62",
+    "TestName": "TEST.PD.PROT.SNK.14 Valid Use of GoodCRC on Power up",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.63": {
+    "TestID": "5.63",
+    "TestName": "TEST.PD.PROT.SNK3.1 Get_Source_Cap_Extended",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.64": {
+    "TestID": "5.64",
+    "TestName": "TEST.PD.PROT.SNK3.2 Alert Response Source Input Change",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.65": {
+    "TestID": "5.65",
+    "TestName": "TEST.PD.PROT.SNK3.3 Alert Response Battery Status Change",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.66": {
+    "TestID": "5.66",
+    "TestName": "TEST.PD.PROT.SNK3.4 Soft_Reset Sent Regardless of Rp Value",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.67": {
+    "TestID": "5.67",
+    "TestName": "TEST.PD.PROT.SNK3.5 Sink PPS Normal Operation",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.68": {
+    "TestID": "5.68",
+    "TestName": "TEST.PD.PROT.SNK3.6 Revision Number Test",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.69": {
+    "TestID": "5.69",
+    "TestName": "TEST.PD.PROT.SNK3.7 GoodCRC Specification Revision Compatibility",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.70": {
+    "TestID": "5.70",
+    "TestName": "TEST.PD.PROT.SNK3.8 GotoMin Message",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.71": {
+    "TestID": "5.71",
+    "TestName": "TEST.PD.VDM.SNK.1 Discovery Process and Enter Mode",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.72": {
+    "TestID": "5.72",
+    "TestName": "TEST.PD.VDM.SNK.2 Exit Mode without Entering",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.73": {
+    "TestID": "5.73",
+    "TestName": "TEST.PD.VDM.SNK.5 DR Swap in Modal Operation",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.74": {
+    "TestID": "5.74",
+    "TestName": "TEST.PD.VDM.SNK.6 Structured VDM Revision Number Test",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.75": {
+    "TestID": "5.75",
+    "TestName": "TEST.PD.VDM.SNK.7 Unrecognized VID in Unstructured VDM",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.76": {
+    "TestID": "5.76",
+    "TestName": "TEST.PD.VDM.CBL3.1 Revision Number Test",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.77": {
+    "TestID": "5.77",
+    "TestName": "TEST.PD.VDM.SRC.1 Discovery Process and Enter Mode",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.78": {
+    "TestID": "5.78",
+    "TestName": "TEST.PD.VDM.SRC.2 Invalid Fields",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_5.79": {
+    "TestID": "5.79",
+    "TestName": "TEST.PD.VDM.CBL.1 Discovery Process and Enter Mode",
+    "ChapterID": "5",
+    "ChapterName": "Protocol"
+  },
+  "TC_6.1": {
+    "TestID": "6.1",
+    "TestName": "TEST.PD.PS.SRC.1 Multiple Request Messages",
+    "ChapterID": "6",
+    "ChapterName": "Power"
+  },
+  "TC_6.2": {
+    "TestID": "6.2",
+    "TestName": "TEST.PD.PS.SRC.2 PDO Transition",
+    "ChapterID": "6",
+    "ChapterName": "Power"
+  },
+  "TC_6.3": {
+    "TestID": "6.3",
+    "TestName": "TEST.PD.PS.SRC.3 Initial Source PDO Transition",
+    "ChapterID": "6",
+    "ChapterName": "Power"
+  },
+  "TC_6.4": {
+    "TestID": "6.4",
+    "TestName": "TEST.PD.PS.SRC.4 Source Behavior with Capability Mismatch Bit",
+    "ChapterID": "6",
+    "ChapterName": "Power"
+  },
+  "TC_6.5": {
+    "TestID": "6.5",
+    "TestName": "TEST.PD.PS.SRC.5 Source Hard Reset Test",
+    "ChapterID": "6",
+    "ChapterName": "Power"
+  },
+  "TC_6.6": {
+    "TestID": "6.6",
+    "TestName": "TEST.PD.PS.SNK.1 PDO Transition",
+    "ChapterID": "6",
+    "ChapterName": "Power"
+  },
+  "TC_6.7": {
+    "TestID": "6.7",
+    "TestName": "TEST.PD.PS.SNK.2 Initial Sink PDO Transition",
+    "ChapterID": "6",
+    "ChapterName": "Power"
+  },
+  "TC_6.8": {
+    "TestID": "6.8",
+    "TestName": "TEST.PD.PS.SNK.3 Multiple Request Load Test Post PR Swap",
+    "ChapterID": "6",
+    "ChapterName": "Power"
+  },
+  "TC_7.1": {
+    "TestID": "7.1",
+    "TestName": "TEST.PD.EPR.SRC3.1 EPR Entry Process",
+    "ChapterID": "7",
+    "ChapterName": "Extended Power"
+  },
+  "TC_7.2": {
+    "TestID": "7.2",
+    "TestName": "TEST.PD.EPR.SRC3.2 EPR Entry Process",
+    "ChapterID": "7",
+    "ChapterName": "Extended Power"
+  },
+  "TC_7.3": {
+    "TestID": "7.3",
+    "TestName": "TEST.PD.EPR.SRC3.3 EPR Entry failed",
+    "ChapterID": "7",
+    "ChapterName": "Extended Power"
+  },
+  "TC_7.4": {
+    "TestID": "7.4",
+    "TestName": "TEST.PD.EPR.SRC3.4 EPR Entry failed",
+    "ChapterID": "7",
+    "ChapterName": "Extended Power"
+  },
+  "TC_7.5": {
+    "TestID": "7.5",
+    "TestName": "TEST.PD.EPR.SRC3.5 EPR Entry Failed",
+    "ChapterID": "7",
+    "ChapterName": "Extended Power"
+  },
+  "TC_7.6": {
+    "TestID": "7.6",
+    "TestName": "TEST.PD.EPR.SRC3.6 EPR Entry Failed",
+    "ChapterID": "7",
+    "ChapterName": "Extended Power"
+  },
+  "TC_7.7": {
+    "TestID": "7.7",
+    "TestName": "TEST.PD.EPR.SRC3.7 EPR Entry Failed",
+    "ChapterID": "7",
+    "ChapterName": "Extended Power"
+  },
+  "TC_7.8": {
+    "TestID": "7.8",
+    "TestName": "TEST.PD.EPR.SRC3.8 EPR mode",
+    "ChapterID": "7",
+    "ChapterName": "Extended Power"
+  },
+  "TC_7.9": {
+    "TestID": "7.9",
+    "TestName": "TEST.PD.EPR.SRC3.9 EPR mode",
+    "ChapterID": "7",
+    "ChapterName": "Extended Power"
+  },
+  "TC_7.10": {
+    "TestID": "7.10",
+    "TestName": "TEST.PD.EPR.SRC3.10 SPR mode",
+    "ChapterID": "7",
+    "ChapterName": "Extended Power"
+  },
+  "TC_7.11": {
+    "TestID": "7.11",
+    "TestName": "TEST.PD.EPR.SRC3.11 EPR Mode Exit by EPR_Mode_Exit message",
+    "ChapterID": "7",
+    "ChapterName": "Extended Power"
+  },
+  "TC_7.12": {
+    "TestID": "7.12",
+    "TestName": "TEST.PD.EPR.SRC3.12 EPR mode",
+    "ChapterID": "7",
+    "ChapterName": "Extended Power"
+  },
+  "TC_7.13": {
+    "TestID": "7.13",
+    "TestName": "TEST.PD.EPR.SRC3.13 EPR mode",
+    "ChapterID": "7",
+    "ChapterName": "Extended Power"
+  },
+  "TC_7.14": {
+    "TestID": "7.14",
+    "TestName": "TEST.PD.EPR.SRC3.14 EPR mode",
+    "ChapterID": "7",
+    "ChapterName": "Extended Power"
+  },
+  "TC_7.15": {
+    "TestID": "7.15",
+    "TestName": "TEST.PD.EPR.SNK3.1 EPR Entry Process",
+    "ChapterID": "7",
+    "ChapterName": "Extended Power"
+  },
+  "TC_7.16": {
+    "TestID": "7.16",
+    "TestName": "TEST.PD.EPR.SNK3.2 EPR Entry Fail tEnterEPR Timer Timeout",
+    "ChapterID": "7",
+    "ChapterName": "Extended Power"
+  },
+  "TC_7.17": {
+    "TestID": "7.17",
+    "TestName": "TEST.PD.EPR.SNK3.3 EPR Fail by EPR Enter Failed Message",
+    "ChapterID": "7",
+    "ChapterName": "Extended Power"
+  },
+  "TC_7.18": {
+    "TestID": "7.18",
+    "TestName": "TEST.PD.EPR.SNK3.4 EPR Entry Fail tFirstSourceCap Timer Timeout",
+    "ChapterID": "7",
+    "ChapterName": "Extended Power"
+  },
+  "TC_7.19": {
+    "TestID": "7.19",
+    "TestName": "TEST.PD.EPR.SNK3.5 EPR Exit by Incorrect EPR Source Cap",
+    "ChapterID": "7",
+    "ChapterName": "Extended Power"
+  },
+  "TC_7.20": {
+    "TestID": "7.20",
+    "TestName": "TEST.PD.EPR.SNK3.6 EPR Exit by EPR Exit Message",
+    "ChapterID": "7",
+    "ChapterName": "Extended Power"
+  },
+  "TC_7.21": {
+    "TestID": "7.21",
+    "TestName": "TEST.PD.EPR.SNK3.7 EPR Fail by Wait Message",
+    "ChapterID": "7",
+    "ChapterName": "Extended Power"
+  },
+  "TC_7.22": {
+    "TestID": "7.22",
+    "TestName": "TEST.PD.EPR.SNK3.8 EPR Exit by Source Cap Message",
+    "ChapterID": "7",
+    "ChapterName": "Extended Power"
+  },
+  "TC_7.23": {
+    "TestID": "7.23",
+    "TestName": "TEST.PD.EPR.SNK3.9 EPR Entry failed due to SourceCap",
+    "ChapterID": "7",
+    "ChapterName": "Extended Power"
+  },
+  "TC_7.24": {
+    "TestID": "7.24",
+    "TestName": "TEST.PD.EPR.SNK3.10 EPR Exit fail due to SinkWaitCapTimer timeout",
+    "ChapterID": "7",
+    "ChapterName": "Extended Power"
+  },
+  "TC_7.25": {
+    "TestID": "7.25",
+    "TestName": "TEST.PD.PS.EPR.SRC3.1 Multiple EPR Request Load Test",
+    "ChapterID": "7",
+    "ChapterName": "Extended Power"
+  },
+  "TC_7.26": {
+    "TestID": "7.26",
+    "TestName": "TEST.PD.PS.EPR.SRC3.2 PDO Transitions in EPR Mode",
+    "ChapterID": "7",
+    "ChapterName": "Extended Power"
+  },
+  "TC_8.1": {
+    "TestID": "8.1",
+    "TestName": "TEST.PD.FRS.SRC3.1 Normal Conditions",
+    "ChapterID": "8",
+    "ChapterName": "FRS"
+  },
+  "TC_8.2": {
+    "TestID": "8.2",
+    "TestName": "TEST.PD.FRS.SRC3.2 Provider Only Checks",
+    "ChapterID": "8",
+    "ChapterName": "FRS"
+  },
+  "TC_8.3": {
+    "TestID": "8.3",
+    "TestName": "TEST.PD.FRS.SRC3.3 GoodCRC Not Sent In Response To Accept",
+    "ChapterID": "8",
+    "ChapterName": "FRS"
+  },
+  "TC_8.4": {
+    "TestID": "8.4",
+    "TestName": "TEST.PD.FRS.SRC3.4 GoodCRC Not Sent In Response To PS_RDY",
+    "ChapterID": "8",
+    "ChapterName": "FRS"
+  },
+  "TC_8.5": {
+    "TestID": "8.5",
+    "TestName": "TEST.PD.FRS.SRC3.5 PSSourceOnTimer Deadline",
+    "ChapterID": "8",
+    "ChapterName": "FRS"
+  },
+  "TC_8.6": {
+    "TestID": "8.6",
+    "TestName": "TEST.PD.FRS.SRC3.6 PSSourceOnTimer Timeout",
+    "ChapterID": "8",
+    "ChapterName": "FRS"
+  },
+  "TC_8.7": {
+    "TestID": "8.7",
+    "TestName": "TEST.PD.FRS.SNK3.1 Normal Conditions",
+    "ChapterID": "8",
+    "ChapterName": "FRS"
+  },
+  "TC_8.8": {
+    "TestID": "8.8",
+    "TestName": "TEST.PD.FRS.SNK3.2 Normal Conditions",
+    "ChapterID": "8",
+    "ChapterName": "FRS"
+  },
+  "TC_8.9": {
+    "TestID": "8.9",
+    "TestName": "TEST.PD.FRS.SNK3.3 FR_Swap Not Sent",
+    "ChapterID": "8",
+    "ChapterName": "FRS"
+  },
+  "TC_8.10": {
+    "TestID": "8.10",
+    "TestName": "TEST.PD.FRS.SNK3.4 SendResponseTimer Timeout",
+    "ChapterID": "8",
+    "ChapterName": "FRS"
+  },
+  "TC_8.11": {
+    "TestID": "8.11",
+    "TestName": "TEST.PD.FRS.SNK3.5 PSSourceOffTimer Deadline",
+    "ChapterID": "8",
+    "ChapterName": "FRS"
+  },
+  "TC_8.12": {
+    "TestID": "8.12",
+    "TestName": "TEST.PD.FRS.SNK3.6 PSSourceOffTimer Timeout",
+    "ChapterID": "8",
+    "ChapterName": "FRS"
+  },
+  "TC_8.13": {
+    "TestID": "8.3",
+    "TestName": "TEST.PD.FRS.SNK3.7 PS_RDY Not Sent",
+    "ChapterID": "8",
+    "ChapterName": "FRS"
+  },
+  "TC_9.1": {
+    "TestID": "9.1",
+    "TestName": "TEST.PD.USB4.DRST.1",
+    "ChapterID": "9",
+    "ChapterName": "USB4"
+  },
+  "TC_9.2": {
+    "TestID": "9.2",
+    "TestName": "TEST.PD.USB4.DRST.2",
+    "ChapterID": "9",
+    "ChapterName": "USB4"
+  },
+  "TC_9.3": {
+    "TestID": "9.3",
+    "TestName": "TEST.PD.USB4.DRST.3",
+    "ChapterID": "9",
+    "ChapterName": "USB4"
+  },
+  "TC_9.4": {
+    "TestID": "9.4",
+    "TestName": "TEST.PD.USB4.DRST.4",
+    "ChapterID": "9",
+    "ChapterName": "USB4"
+  },
+  "TC_9.5": {
+    "TestID": "9.5",
+    "TestName": "TEST.PD.USB4.DRST.5",
+    "ChapterID": "9",
+    "ChapterName": "USB4"
+  },
+  "TC_9.6": {
+    "TestID": "9.6",
+    "TestName": "TEST.PD.USB4.DRST.6",
+    "ChapterID": "9",
+    "ChapterName": "USB4"
+  },
+  "TC_9.7": {
+    "TestID": "9.7",
+    "TestName": "TEST.PD.USB4.DRST.7",
+    "ChapterID": "9",
+    "ChapterName": "USB4"
+  },
+  "TC_9.8": {
+    "TestID": "9.8",
+    "TestName": "TEST.PD.USB4.EUSB.1",
+    "ChapterID": "9",
+    "ChapterName": "USB4"
+  },
+  "TC_9.9": {
+    "TestID": "9.9",
+    "TestName": "TEST.PD.USB4.EUSB.2",
+    "ChapterID": "9",
+    "ChapterName": "USB4"
+  },
+  "TC_9.10": {
+    "TestID": "9.10",
+    "TestName": "TEST.PD.USB4.EUSB.3",
+    "ChapterID": "9",
+    "ChapterName": "USB4"
+  },
+  "TC_9.11": {
+    "TestID": "9.11",
+    "TestName": "TEST.PD.USB4.EUSB.4",
+    "ChapterID": "9",
+    "ChapterName": "USB4"
+  },
+  "TC_9.12": {
+    "TestID": "9.12",
+    "TestName": "TEST.PD.USB4.EUSB.5",
+    "ChapterID": "9",
+    "ChapterName": "USB4"
+  },
+  "TC_9.13": {
+    "TestID": "9.13",
+    "TestName": "TEST.PD.USB4.CBL.1",
+    "ChapterID": "9",
+    "ChapterName": "USB4"
+  },
+  "TC_9.14": {
+    "TestID": "9.14",
+    "TestName": "TEST.PD.USB4.CBL.2",
+    "ChapterID": "9",
+    "ChapterName": "USB4"
+  }
+}

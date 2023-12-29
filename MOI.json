@@ -1,0 +1,53 @@
+{
+    "DUT_Type": {
+        "Provider Only": [
+            "Power Delivery 3.1 Tests ",
+            "PD2 Communication Engine Tests-v1.09",
+            "PD2 Deterministic Tests-v1.14",
+            "USB-C Functional Tests-v0.82",
+            "Source Power Tests-v0.74 ",
+            "Power Delivery 3.0 Tests-v1.19",
+            "Quick Charger 3.0 Tests-v1.4",
+            "Quick Charge 4 Tests-v1.0 ",
+            "Thunderbolt Power Tests-Rev1.5 Ver0.9",
+            "DisplayPort Alternate Mode Tests-v4 ",
+            "Custom OEM Tests-v1.0",
+            "QC3+ Tests-v1.2",
+            "IEC Functional Safety Tests"
+        ],
+        "Dual Role Power[DRP]": [
+            "Power Delivery 3.1 Tests ",
+            "PD2 Communication Engine Tests-v1.09",
+            "PD2 Deterministic Tests-v1.14",
+            "USB-C Functional Tests-v0.82",
+            "Source Power Tests-v0.74 ",
+            "Power Delivery 3.0 Tests-v1.19",
+            " Quick Charger 3.0 Tests-v1.4",
+            "Quick Charge 4 Tests-v1.0 ",
+            "Thunderbolt Power Tests-Rev1.5 Ver0.9",
+            "DisplayPort Alternate Mode Tests-v4 ",
+            "BC1.2 DCP Sink Tests",
+            "IEC Functional Safety Tests"
+        ],
+        "Cable": [
+            "Power Delivery 3.1 Tests ",
+            "PD2 Communication Engine Tests-v1.09",
+            "PD2 Deterministic Tests-v1.14",
+            "USB-C Functional Tests-v0.82",
+            "Power Delivery 3.0 Tests-v1.19",
+            "DisplayPort Alternate Mode Tests-v4 ",
+            "IEC Functional Safety Tests"
+        ],
+        "Consumer Only": [
+            "Power Delivery 3.1 Tests",
+            "PD2 Communication Engine Tests-v1.09",
+            "PD2 Deterministic Tests-v1.14",
+            "USB-C Functional Tests-v0.82",
+            "Power Delivery 3.0 Tests-v1.19",
+            "Thunderbolt Power Tests-Rev1.5 Ver0.9 ",
+            "DisplayPort Alternate Mode Tests-v4 ",
+            "BC1.2 DCP Sink Tests",
+            "IEC Functional Safety Tests"
+        ]
+    }
+}
